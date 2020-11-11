@@ -112,7 +112,7 @@ const docClient = new AWS.DynamoDB.DocumentClient()
 var params = {
   TableName: 'ProductTable',
   FilterExpression: '#shoename = :shoename', // optional
-  ExpressionAttributeValues: { ':shoename': 'yeezys' }, // optional
+  ExpressionAttributeValues: { ':shoename': 'Yeezys' }, // optional
   ExpressionAttributeNames: { '#shoename': 'name' }, // optional
 }
 
